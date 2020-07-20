@@ -8,7 +8,7 @@ def fizzbuzz(number)
     "Buzz"
   elsif number % 3 && number % 5 == 0
     "FizzBuzz"
-  elsif number % 3 || number % 5 == 0
+  elsif (number % 3) || (number % 5 == 0)
     "FizzBuzz"
   else
   end
